@@ -22,7 +22,7 @@ const actionsRoutes = require("./routes/actRouter");
 server.use(express.json());
 server.use(cors());
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 server.listen(port, () => {
 	console.log("listening on " + port);
